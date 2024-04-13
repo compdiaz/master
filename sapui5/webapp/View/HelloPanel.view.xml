@@ -11,6 +11,14 @@
         width="auto"    >
         <content>
 
+
+            <Button id= "helloDialogButton"
+                icon="sap-icon://action"  
+                text="{i18n>helloDialogButton}"
+                press=".onOpenDialog"
+                class="sapUiSmallMargindEnd"
+            />
+
             <Button
                 text="{i18n>showHello}"
                 press=".onShowHello"
